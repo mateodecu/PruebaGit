@@ -16,20 +16,22 @@ body  {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+#header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(21, 69, 228);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
 #acerca {
     padding: 10px;
     background-color: rgba(17, 177, 218, 0.8);
-    border-radius: 5px;
-    margin: 10px;
-}
-
-#header {
-    padding: 10px;
-    background-color: rgb(221, 184, 19, 0.8);
-    border-radius: 5px;
-    margin: 10px;
-    text-align: center;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px;
 }
 
 #block {
@@ -45,5 +47,14 @@ body  {
     background-color: rgb(221, 184, 19, 0.8);
     color: aqua;
     margin: 0px;
+}
+
+#footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(21, 69, 228);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
