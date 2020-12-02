@@ -15,3 +15,28 @@ body  {
     text-align: center;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
+
+#header {
+    padding: 10px;
+    background-color: rgb(221, 184, 19, 0.8);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#block {
+    padding: 10px;
+    background-color: rgba(13, 240, 62, 0.8);
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#contacto {
+    padding: 10px;
+    background-color: rgb(221, 184, 19, 0.8);
+    color: aqua;
+    margin: 0px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
